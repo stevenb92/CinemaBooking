@@ -1,0 +1,26 @@
+Summary
+This Java application was created in my first year of Computer Science at Cardiff University as part of my fundamentals of computing with Java module. It is a Swing based GUI application.
+
+Compile on Linux/MacOS
+Open up the Sources folder in a terminal window then type;
+
+$ javac Cinema.java Ticket.java Receipt.java
+
+Then check the classes have been generated
+
+$ ls Cinema.java Ticket.java Receipt.java Cinema.class Ticket.class Receipt.java
+
+Run on Linux/MacOS
+I have already Create class files for those that do not want to edit the code and just want to run the application. Navigate to the Classes folder in a terminal window and simply type.
+
+$ java Cinema
+
+The program window should now pop up on your screen!.
+
+How to use
+Select your ticket type, desired row and time from the Combo boxes at the top of the screen
+Click on the desired seat in the highlighted row and it will change colour according to the type of ticket (to select a different row you need to change the selected row in the combo box at the top).
+Once you have selected your seats. Click the submit button at the bottom. The seats in the current window will grey out and indicate they have been booked. A new JFrame window will open with a receipt to confirm the booking details and cost.
+
+Authors and Contributors
+Just me myself and I!.
